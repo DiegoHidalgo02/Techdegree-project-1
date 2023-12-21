@@ -222,6 +222,49 @@ color: white
 }
 
 
+/*Syle for hobby.html*/
+
+.header-hobby {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main-nav-hobby{
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+}
+
+.nav-hobby {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  margin-right: 50px;
+  color: white;
+}
+
+.nav-hobby li {
+  padding: 5px 10px 10px 10px;
+}
+.nav-hobby a {
+  transition: all .5s;
+}
+.nav-hobby a:hover {
+  color: white
+}
+
+.name-hobby{
+  margin-left:40px;
+  font-size: 50px;
+  color: white;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
@@ -235,7 +278,7 @@ color: white
       margin: 0 auto;
   }
 
-  header .div-name {
+  header, .div-name {
     min-height: 470px;
   }
 
