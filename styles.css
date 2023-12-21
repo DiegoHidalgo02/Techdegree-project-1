@@ -41,9 +41,9 @@ a:hover {
 }
 
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: block;
+  margin-right: auto;
+  color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -167,6 +167,62 @@ a.social:hover {
   clear: both;
 }
 
+
+/*Style for experience.html*/
+
+/*CSS copy & paste from original css, just changed the name of the classes*/
+
+.header-experience {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main-nav-experience{
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav-experience {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  margin-right: 50px;
+  color: white;
+}
+
+.nav-experience li {
+padding: 5px 10px 10px 10px;
+}
+.nav-experience a {
+transition: all .5s;
+}
+.nav-experience a:hover {
+color: white
+}
+
+/*CSS style created by me for header experience.html*/
+
+.div-name{
+  display: flex;
+  height: 100%;
+  align-items: center;/*vertically align the contents of the div, can only use it if display is set to flex*/
+}
+
+.name-experience{
+  margin-left:40px;
+  font-size: 50px;
+  color: white;
+}
+
+
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -179,7 +235,7 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
+  header .div-name {
     min-height: 470px;
   }
 
