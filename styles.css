@@ -1,4 +1,6 @@
-/* Global Layout Set-up */
+/* Global Layout Set-up 
+All images were downloaded from google images don't belong to me
+*/
 * { 
   box-sizing: border-box;
 }
@@ -188,7 +190,7 @@ a.social:hover {
   padding: 60px;
 }
 
-
+/*Much of the code has been taken from the original code above and modified slightly*/
 /*Style for experience.html*/
 
 /*CSS copy & paste from original css, just changed the name of the classes*/
@@ -227,6 +229,7 @@ transition: all .5s;
 .nav-experience a:hover {
 color: white
 }
+
 
 /*CSS style created by me for header experience.html*/
 
